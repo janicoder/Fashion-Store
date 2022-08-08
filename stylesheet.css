@@ -10,7 +10,7 @@ header {
 }
 
 header:hover {
-    background-color: hsla(239, 72%, 91%, 0.3);
+    background-color: hsla(38, 73%, 91%, 0.5);
     z-index: 10;
 }
 
@@ -35,8 +35,7 @@ nav li {
     font-size: 1em;
     padding: 0px;
     margin: 0px 45px;
-
-
+    margin-bottom: 15px;
 }
 
 nav a {
@@ -45,10 +44,11 @@ nav a {
     font-size: 1.3em;
     padding: 7px;
     border: 2px solid transparent;
+    border-radius: 5px;
 }
 
 nav a:hover {
-    background-color: hsl(239, 72%, 86%)
+    background-color: hsl(46, 87%, 64%)
 }
 nav a:active {
     border: 2px solid gray;
@@ -70,7 +70,7 @@ video{
 }
 
 .content{
-    width: 80%;
+    width: 100%;
     display: inline-flex;
     justify-content: space-between;
     align-items: space-between;
@@ -91,7 +91,7 @@ video{
     display: grid;
     grid-template: 20% 60% / 30% 40%;
     gap: 30% 20%;
-    border: 5px solid black;
+    border: 3px solid rgb(182, 146, 81);
     padding: 15px;
     background-color: hsl(54, 70%, 74%);
     border-radius: 5px;
@@ -101,4 +101,14 @@ video{
 .box p {
     grid-column-start: 1;
     grid-column-end: 3;
+}
+
+footer {
+    background-color: blanchedalmond;
+    border-top: 3px solid black;
+    margin-top: 100px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
