@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(233, 231, 104);
+    background-color: rgb(230, 229, 193);
 }
 
 header {
@@ -84,10 +84,21 @@ video{
 
 .icon {
     display: inline;
-    width: 80px;
+    width: 70px;
 }
 
 .box {
+    display: grid;
+    grid-template: 20% 60% / 30% 40%;
+    gap: 30% 20%;
     border: 5px solid black;
     padding: 15px;
+    background-color: hsl(54, 70%, 74%);
+    border-radius: 5px;
+    width: 400px;
+}
+
+.box p {
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
